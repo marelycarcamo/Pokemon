@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+#contenedor{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: url("https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg") no-repeat center center fixed;
+	background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	/* background-position-y: top; */
+}
+
+#contenedor>div{
+height: 600px;
+
+}
+
+h1{
+	text-align: center;
+}
+
+.cajas-flechas img{
+	border-radius: 50%;
+	width: 100px;	
+	opacity: 70%;
+	box-shadow:0 9px #999;
+	transition: all ease 0.5s;
+}
+
+.cajas-flechas img:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.cajas-flechas img:hover{
+	opacity:100%;
+}
+
+#caja-imagen-pokemon{
+	height: 480px;
+	width: 500px;
+	display:flex;
+	align-items: flex-end;
+    justify-content: center;
+}
+
+
+#caja-central{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+#caja-texto{
+	margin-top: 35px;
+	margin-bottom: 10px;
+	
+}
+
+.cajas-flechas{
+	display: flex;
+	align-items: center;
+}
+
+#img-pokemon{
+	max-width: 450px;
+	max-height: 450px;
+	
+}
+
+
+
+p{
+	font-size:x-large;
+}
