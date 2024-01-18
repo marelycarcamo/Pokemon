@@ -1,4 +1,6 @@
-POKEDEX
+# Pokedex
+
+`https://marelycarcamo.github.io/Pokedex/`
 
 El programa está escrito en HTML y utiliza CSS para el estilo y JavaScript para la funcionalidad. La página web tiene un diseño simple y limpio, con una imagen de un Pokémon en el centro y un título que muestra el nombre y el número del Pokémon.
 
