@@ -1,44 +1,61 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/tareaPokemon.css">
-    <title>Tarea Pokemon</title>
-  </head>
-  
-  <body>
 
-    <div id="contenedor">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/tareaPokemon.css">
+  <link rel="icon" href="multimedia/images/pokemon.ico" type="image/x-ico">
+  <title>Pokedex</title>
+</head>
 
-      <div id="flechaIzq" class="cajas-flechas"><img src="imagenes/flecha-izq.png" alt=""></div>
-      <div id="caja-central">
-      
-        <div id="caja-imagen-pokemon">
-          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" id="img-pokemon" alt="">
-        </div>
-        <div id="caja-texto">
-          <h1>#1 bulbasour</h1>
-        </div>
+<body>
+
+
+  <div class="d-flex flex-wrap justify-content-around align-items-center wrap-wrap"
+    style="background: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; min-height: 100vh; width: 100%;">
+
+
+    <!-- pokemon, numero y nombre -->
+    <div class="d-flex flex-column">
+      <div id="caja-imagen-pokemon" class="d-flex align-items-end justify-content-center border-2"
+        style="width: 600px; height: 480px;">
+        <img id="img-pokemon" class="img-fluid" style="max-width:450px; max-height:450px;"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+          alt="imagen-pokemon">
+      </div>
+      <div class="mt-3 mb-1"></div>
+      <h1 class="text-center">#1 bulbasour</h1>
     </div>
 
-          <div id="flechaDer" class="cajas-flechas"><img src="imagenes/flecha-der.png" alt=""></div>
-     
-    
-     
-             
+    <div class="d-flex flex-row">
+      <!-- flecha izquierda -->
+      <div id="f-left" class="cajas-flechas d-flex align-items-center">
+        <img src="multimedia/images/flecha-izq.png" class="img-fluid" style="border-radius:50%; width: 100px"
+          alt="flecha-izquierda">
+      </div>
+
+      <!-- flecha derecha -->
+      <div id="f-right" class="cajas-flechas d-flex align-items-center">
+        <img src="multimedia/images/flecha-der.png" class="img-fluid" style="border-radius: 50%; width: 100px;"
+          alt="flecha-derecha">
+
+      </div>
     </div>
-      
-       
+  </div>
+
   <!-------------------------------------------------------------------->
-    
-    <script src="js/jquery-3.5.1.js"></script>  
-    <script src="js/tareaPokemon.js"></script>
+  <!-- jquery -->
+  <script src="js/jquery-3.5.1.js"></script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/tareaPokemon.js"></script>
 
-  </body>
+</body>
 
 </html>
-
-
