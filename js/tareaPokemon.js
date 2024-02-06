@@ -7,23 +7,19 @@ async function capturaDatos(i){
     urlPokemon = (datosPokemon.sprites.other.dream_world.front_default);
     $("#img-pokemon").attr("src",urlPokemon);
      $("h1").text(`#${datosPokemon.id} ${datosPokemon.name}`);
-
-     
 }; 
  
 function clickFlechaIzq(){
-    if (i==1){
-        i=650;
-    }   
+i = (i == 1) ? 650 : i;
 capturaDatos(--i);
 }
+
 
 function clickFlechaDer(){
     if (i==649){
         i=0;
     }
-
-capturaDatos(++i);
+    capturaDatos(++i);
 }
 
 var i=1, imagen, nombre;
