@@ -7,7 +7,7 @@ async function capturaDatos(i){
     urlPokemon = (datosPokemon.sprites.other.dream_world.front_default);
     $("#img-pokemon").attr("src",urlPokemon);
      $("h1").text(`#${datosPokemon.id} ${datosPokemon.name}`);
-    
+
      
 }; 
  
