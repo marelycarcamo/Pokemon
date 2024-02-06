@@ -4,7 +4,6 @@ async function capturaDatos(i){
     let respuesta =await fetch(url);
     let datosPokemon =await respuesta.json();
     console.log(datosPokemon[i]);
-    // $("#infoPokemon").text(datosPokemon);
     urlPokemon = (datosPokemon.sprites.other.dream_world.front_default);
     $("#img-pokemon").attr("src",urlPokemon);
      $("h1").text(`#${datosPokemon.id} ${datosPokemon.name}`);
