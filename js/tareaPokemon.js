@@ -10,15 +10,13 @@ async function capturaDatos(i){
 }; 
  
 function clickFlechaIzq(){
-i = (i == 1) ? 650 : i;
-capturaDatos(--i);
+    i = (i == 1) ? 650 : i;
+    capturaDatos(--i);
 }
 
 
 function clickFlechaDer(){
-    if (i==649){
-        i=0;
-    }
+    i = (i==649) ? 0: i;
     capturaDatos(++i);
 }
 
