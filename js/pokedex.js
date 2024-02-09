@@ -15,7 +15,8 @@ async function capturaDatos(i) {
 	console.log(datosPokemon[i]);
 	urlPokemon = datosPokemon.sprites.other.dream_world.front_default; //url imagen pokemon
 	$("#img-pokemon").attr("src", urlPokemon);
-	$("h1").text(`#${datosPokemon.id} ${datosPokemon.name}`);
+	$("#h-id").text(`#${datosPokemon.id}`);
+	$("#h-name").text(`${datosPokemon.name}`);
 }
 
 function clickFlechaIzq() {
