@@ -1,9 +1,19 @@
+
+/**
+ * AUTHOR: MARELY
+ * This JavaScript code fetches data from the PokeAPI and displays information about different Pokemon
+ * when the left or right arrow buttons are clicked.
+ * @param i - The parameter "i" is used to specify the ID of the Pokemon that we want to retrieve data
+ * for. It is initially set to 1 and is incremented or decremented based on the user's interaction with
+ * the left and right arrows.
+ */
+
 async function capturaDatos(i) {
 	url = "https://pokeapi.co/api/v2/pokemon/" + i;
 	let respuesta = await fetch(url);
 	let datosPokemon = await respuesta.json();
 	console.log(datosPokemon[i]);
-	urlPokemon = datosPokemon.sprites.other.dream_world.front_default;
+	urlPokemon = datosPokemon.sprites.other.dream_world.front_default; //url imagen pokemon
 	$("#img-pokemon").attr("src", urlPokemon);
 	$("h1").text(`#${datosPokemon.id} ${datosPokemon.name}`);
 }
@@ -23,3 +33,7 @@ var i = 1;
 	$("#f-left").click(clickFlechaIzq);
 	$("#f-right").click(clickFlechaDer);
 });
+
+
+
+

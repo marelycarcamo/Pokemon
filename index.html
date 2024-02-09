@@ -1,6 +1,8 @@
+<!-- Programa Pokedex -->
+<!-- AUTHOR: MARELY -->
+
 <!doctype html>
 <html lang="es">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -9,21 +11,19 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="css/tareaPokemon.css">
   <link rel="icon" href="multimedia/images/pokemon.ico" type="image/x-ico">
+  <link rel="stylesheet"
+    href="https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg">
   <title>Pokedex</title>
 </head>
 
 <body>
-
-
-  <div class="d-flex flex-wrap justify-content-around align-items-center wrap-wrap"
-    style="background: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; min-height: 100vh; width: 100%;">
-
+  <div id="container" class="d-flex justify-content-center align-items-center flex-wrap mt-5">
 
     <!-- pokemon, numero y nombre -->
     <div class="d-flex flex-column">
-      <div id="caja-imagen-pokemon" class="d-flex align-items-end justify-content-center border-2"
+      <div id="caja-imagen-pokemon" class="d-flex align-items-end justify-content-center"
         style="width: 600px; height: 480px;">
-        <img id="img-pokemon" class="img-fluid" style="max-width:450px; max-height:450px;"
+        <img id="img-pokemon" style="width:50%" 
           src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
           alt="imagen-pokemon">
       </div>
@@ -31,18 +31,15 @@
       <h1 class="text-center">#1 bulbasour</h1>
     </div>
 
+
     <div class="d-flex flex-row">
       <!-- flecha izquierda -->
-      <div id="f-left" class="cajas-flechas d-flex align-items-center">
-        <img src="multimedia/images/flecha-izq.png" class="img-fluid" style="border-radius:50%; width: 100px"
-          alt="flecha-izquierda">
+      <div id="f-left" class="cajas-flechas d-flex align-items-center justify-content-center">
+        <img src="multimedia/images/flecha-izq.png" style="border-radius: 50%; width:50%;" alt="flecha-izquierda">
       </div>
-
       <!-- flecha derecha -->
-      <div id="f-right" class="cajas-flechas d-flex align-items-center">
-        <img src="multimedia/images/flecha-der.png" class="img-fluid" style="border-radius: 50%; width: 100px;"
-          alt="flecha-derecha">
-
+      <div id="f-right" class="cajas-flechas d-flex align-items-center justify-content-center">
+        <img src="multimedia/images/flecha-der.png" style="border-radius: 50%; width:50%;" alt="flecha-derecha">
       </div>
     </div>
   </div>

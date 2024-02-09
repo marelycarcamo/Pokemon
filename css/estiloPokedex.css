@@ -1,0 +1,38 @@
+body{
+	background-image: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg');
+    
+    /* Centra y escala la imagen correctamente */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Asegura de que el body ocupe toda la altura */
+    height: 100vh;
+    margin: 0;
+}
+
+.cajas-flechas img:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.cajas-flechas img:hover{
+	opacity:100%;
+}
+
+.cajas-flechas img{
+	opacity: 70%;
+	box-shadow:0 9px #999;
+	transition: all ease 0.05s;
+}
+
+/* div {
+    border: 2px solid black;
+} */
+
+@media (max-width: 600px) {
+body{
+		height: 100vh;
+		margin:0;
+	}	
+    }
