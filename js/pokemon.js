@@ -19,20 +19,20 @@ async function capturaDatos(i) {
 	$("#h-name").text(`${datosPokemon.name}`);
 }
 
-function clickFlechaIzq() {
+function click_arrow_left() {
 	i = i == 1 ? 650 : i;
 	capturaDatos(--i);
 }
 
-function clickFlechaDer() {
+function click_arrow_right() {
 	i = i == 649 ? 0 : i;
 	capturaDatos(++i);
 }
 
 var i = 1;
 	$(document).ready(function () {
-	$("#f-left").click(clickFlechaIzq);
-	$("#f-right").click(clickFlechaDer);
+	$("#id-arrow-left").click(click_arrow_right);
+	$("#id-arrow-right").click(click_arrow_right);
 });
 
 
