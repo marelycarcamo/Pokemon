@@ -34,9 +34,13 @@ h1{
 }
 
 
+div{
+	border: 1px solid red;
+}
+
 @media only screen and (max-width: 600px) {
 	#img-pokemon{
-		height: 200px;
+		height: 80%;
 	}
 
 }
