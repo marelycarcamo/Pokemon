@@ -1,4 +1,4 @@
-body{
+#container{
 	background-image: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg');
     
     /* Centra y escala la imagen correctamente */
@@ -10,9 +10,7 @@ body{
     height: 100vh;
     margin: 0;
 }
-#row1{
-height: 200px;
-}
+
 
 .cajas-flechas img:active{
 	box-shadow: 0 5px #666;
