@@ -1,3 +1,13 @@
+@media only screen and (max-width: 600px) {
+	#img-box{
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	}
+	
+
 #container{
 	background-image: url('https://assets.pokemon.com//assets/cms2-es-es/img/misc/virtual-backgrounds/masters/forest.jpg');
     
@@ -9,9 +19,21 @@
     /* Asegura de que el body ocupe toda la altura */
     height: 100vh;
     margin: 0;
+	border: 1px solid rgb(20, 221, 70);
+	display: flex;
+	align-items: center;
+	height: 100vh;
 }
 
+.row{
+	height:80%;
+	width: 100%;
+}
 
+#box-pokemon{
+	display: flex;
+	align-items: center;
+}
 .cajas-flechas img:active{
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
@@ -34,12 +56,9 @@ h1{
 }
 
 
-/* div{
+
+div{
 	border: 1px solid red;
-} */
-
-@media only screen and (max-width: 600px) {
-
-
 }
+
 
