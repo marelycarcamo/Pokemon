@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	#img-box{
 		display: flex;
 		justify-content: center;
@@ -34,19 +34,25 @@
 	display: flex;
 	align-items: center;
 }
-.cajas-flechas img:active{
+
+.cajas-flechas img {
+	opacity: 70%;
+	box-shadow: 0 9px #999;
+	transition: all ease 0.05s;
+	background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+	border-radius: 50%;
+	border-color: #666;
+}
+
+.cajas-flechas img:hover {
+	opacity: 100%;
+	background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 100%);
+}
+
+.cajas-flechas img:active {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
-}
-
-.cajas-flechas img:hover{
-	opacity:100%;
-}
-
-.cajas-flechas img{
-	opacity: 70%;
-	box-shadow:0 9px #999;
-	transition: all ease 0.05s;
+	background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 50%, #e5e5e5 100%);
 }
 
 
