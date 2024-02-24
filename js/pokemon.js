@@ -14,9 +14,9 @@ async function capturaDatos(i) {
 	let datosPokemon = await respuesta.json();
 	console.log(datosPokemon[i]);
 	urlPokemon = datosPokemon.sprites.other.dream_world.front_default; //url imagen pokemon
-	$("#img-pokemon").attr("src", urlPokemon);
-	$("#h-id").text(`#${datosPokemon.id}`);
-	$("#h-name").text(`${datosPokemon.name}`);
+	$("#img-pokemon").attr("src", urlPokemon); // imagen pokemon
+	$("#h-id").text(`#${datosPokemon.id}`);  // número de pokemon
+	$("#h-name").text(`${datosPokemon.name}`);  // nombre de pokemon
 }
 
 function click_arrow_left() {
@@ -31,7 +31,7 @@ function click_arrow_right() {
 
 var i = 1;
 	$(document).ready(function () {
-	$("#id-arrow-left").click(click_arrow_right);
+	$("#id-arrow-left").click(click_arrow_left);
 	$("#id-arrow-right").click(click_arrow_right);
 });
 
