@@ -8,6 +8,5 @@ https://marelycarcamo.github.io/Pokemon/
 
 <p align="justify"> El programa utiliza la biblioteca jQuery para manipular el DOM y gestionar los eventos de clic en las flechas. También utiliza la API de Pokémon para obtener las imágenes y la información de los Pokémon.</p>
 
-<p align="justify"> El archivo CSS tareaPokemon.css se utiliza para dar estilo a la página web, mientras que el archivo JavaScript tareaPokemon.js se utiliza para gestionar la funcionalidad de la página.</p>
 
 <p align="justify"> En resumen, este programa es una excelente manera de explorar y aprender sobre los diferentes Pokémon de una manera interactiva y visualmente atractiva. </p>😊
