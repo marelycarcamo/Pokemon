@@ -5,7 +5,7 @@
 		
 	}
 	
-	}
+}
 	
 
 #container{
@@ -15,27 +15,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    /* Asegura de que el body ocupe toda la altura */
-    height: 100vh;
-    margin: 0;
 	border: 1px solid rgb(20, 221, 70);
-	display: flex;
-	align-items: center;
-	height: 100vh;
 }
 
-.row{
-	height:80%;
-	width: 100%;
-}
 
-#box-pokemon{
-	display: flex;
-	align-items: center;
-}
-
-.cajas-flechas img {
+.box-arrows img {
 	opacity: 70%;
 	box-shadow: 0 9px #999;
 	transition: all ease 0.05s;
@@ -44,12 +28,12 @@
 	border-color: #666;
 }
 
-.cajas-flechas img:hover {
+.box-arrows img:hover {
 	opacity: 100%;
 	background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 100%);
 }
 
-.cajas-flechas img:active {
+.box-arrows img:active {
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 	background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 50%, #e5e5e5 100%);
@@ -65,6 +49,6 @@ h1{
 
 /* div{
 	border: 1px solid red;
-} */
+}  */
 
 
